@@ -1,0 +1,43 @@
+header {
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background: transparent;
+}
+
+header.black {
+    background: linear-gradient(to right, rgb(142, 199, 245) 30%, transparent 150%);
+}
+
+.logo--img {
+    height: 55px;
+}
+
+.logo--img img {
+    height: 100%;
+}
+
+.links--list {
+    padding-right: 50px;
+}
+
+.links--list ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.links--list li  {
+    margin-right: 30px;
+}
+
+.links--list a {
+    text-decoration: none;
+    color: black;
+}
