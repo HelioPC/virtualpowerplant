@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 
-import Header from "./header";
+import Header from "./components/header/header";
 
 import './Home.css';
 
 import mainImg from '../../assets/img/bg-img.png';
 
-export default () => {
+export default function Home() {
     const[colorHeader, setColorHeader] = useState(false);
 
     useEffect(() => {
@@ -40,13 +40,15 @@ export default () => {
                         </div>
 
                         <div className="first-look-buttons">
-                            <a href="#" className="btn-1">Sign in</a>
-                            <a href="#" className="btn-2">Buy now</a>
+                            <a href="/login" className="btn-1">Sign in</a>
+                            <a href="/" className="btn-2">Buy now</a>
                         </div>
                     </div>
                 </div>
-                <div>adsdhfhgdf</div>
-                <div>ersrytujr</div>
+                
+                <div className="rest">
+                    Eliude P. C. Vemba
+                </div>
             </div>
         </>
     );

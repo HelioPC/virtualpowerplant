@@ -1,0 +1,7 @@
+.crd {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: rgb(163, 21, 21);
+    color: white;
+}
