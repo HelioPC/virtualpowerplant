@@ -13,7 +13,7 @@ header {
 }
 
 header.black {
-    background: rgba(142, 199, 245, .7);
+    background-color: #000;
 }
 
 .logo--img {
@@ -26,7 +26,6 @@ header.black {
 
 .links--list {
     padding-right: 50px;
-    font-weight: bold;
 }
 
 .links--list ul {
@@ -40,5 +39,5 @@ header.black {
 
 .links--list a {
     text-decoration: none;
-    color: black;
+    color: #FFF;
 }

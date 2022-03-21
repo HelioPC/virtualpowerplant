@@ -15,10 +15,10 @@ export default function Header({color}){
 
           <div className="links--list">
             <ul>
-              <li><a href="/">About</a></li>
-              <li><a href="/">Solutions</a></li>
-              <li><a href="/">Buy</a></li>
-              <li><a href="/">Sign in</a></li>
+              <li><a href="/" style={ color ? {} : {fontWeight: 'bold'}} >About</a></li>
+              <li><a href="/" style={ color ? {} : {fontWeight: 'bold'}} >Solutions</a></li>
+              <li><a href="/" style={ color ? {} : {fontWeight: 'bold'}} >Buy</a></li>
+              <li><a href="/login" style={ color ? {} : {fontWeight: 'bold'}} >Sign in</a></li>
             </ul>
           </div>
         </header>

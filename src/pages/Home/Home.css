@@ -5,8 +5,8 @@
 body {
     margin: 0;
     color: #111;
-    background-color: rgb(242, 228, 255);
     font-family: 'sans serif';
+    text-decoration: none;
 }
 
 .page {
@@ -26,7 +26,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: linear-gradient(to top, rgb(242, 228, 255) 10%, transparent 90%);
+    background: linear-gradient(to top, #fff 10%, transparent 80%);
     padding-left: 30px;
     padding-bottom: 150px;
 }
@@ -35,13 +35,14 @@ body {
     font-size: 60px;
     font-weight: bold;
     max-width: 60%;
+    color: #FFF;
 }
 
 .first-look-description {
     font-size: 18px;
     margin-top: 35px;
     max-width: 30%;
-    font-weight: bold;
+    color: #FFF;
 }
 
 .first-look-buttons {
@@ -52,9 +53,15 @@ body {
     display: inline-block;
     font-size: 20px;
     padding: 15px 25px;
+    border: .25px solid #FFF;
     border-radius: 5px;
     text-decoration: none;
     margin-right: 60px;
+}
+
+.btn-1:hover, .btn-2:hover {
+    transform: scale(1.08);
+    color: #fafafa;
 }
 
 .btn-1{
@@ -67,6 +74,72 @@ body {
     color: #fff;
 }
 
-.rest {
-    height: 100px;
+.body-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-1-txt {
+    width: 30%;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-2-cards {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    width: 21%;
+    height: 100%;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f868ecef-4b4a-4ddf-8239-83b2568b3a6b/de7hhu3-3eae646a-9b2e-4e42-84a4-532bff43f397.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y4NjhlY2VmLTRiNGEtNGRkZi04MjM5LTgzYjI1NjhiM2E2YlwvZGU3aGh1My0zZWFlNjQ2YS05YjJlLTRlNDItODRhNC01MzJiZmY0M2YzOTcuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.R0h-BS0osJSrsb1iws4-KE43bUXHMFvu5PvNfoaoi8o");
+    background-position: center;
+    background-size: cover;
+}
+
+.card-body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 35px;
+    background-color: rgba(0, 0, 0, .6);
+    color: #fff;
+}
+
+.card-body a {
+    font-size: 90%;
+    height: 50px;
+    width: 35%;
+    padding: 16px 20px;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.card-body a:hover {
+    background-color: #fff;
+    color: #e47474;
 }

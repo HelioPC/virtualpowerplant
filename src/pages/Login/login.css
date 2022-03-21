@@ -1,7 +1,128 @@
-.crd {
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    background-color: rgb(163, 21, 21);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: none;
+    background: rgba(241, 241, 241, 0.1);
+    color: #FFF;
+    font-size: 18px;
+}
+
+::-webkit-input-placeholder {
+    color: #FFF;
+    font-size: 14px;
+}
+
+.form-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group {
+    width: 950px;
+    height: 600px;
+    border-radius: 20px;
     color: white;
+    z-index: 1;
+}
+
+.form-group-v {
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(to right, #252535 60%, transparent 200%);
+}
+
+.form-group h1 {
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.form-1 {
+    width: 100%;
+    height: 100%;
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-1-name {
+    width: 60%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-1-oth {
+    width: 60%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-1-btns {
+    height: 40px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-1-btns button {
+    height: 40px;
+    width: 45%;
+    cursor: pointer;
+    color: #FFF;
+    margin-top: 40px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 55px;
+    animation: all ease .7s;
+}
+
+.form-1-btns button:hover {
+    transform: scale(1.07);
+    opacity: .9;
+}
+
+@media (max-width: 1000px) {
+    .form-group {
+        width: 80%;
+    }
+
+    .form-1 h1 {
+        font-size: 28px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .form-group {
+        width: 60%;
+    }
+
+    .form-1 h1 {
+        font-size: 24px;
+    }
+    
 }
