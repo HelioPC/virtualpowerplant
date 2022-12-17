@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import Header from "./components/header/header";
 
-import './Home.css';
+import './style.css';
 
 import mainImg from '../../assets/img/bg-img.png';
 import Footer from "./components/footer/footer";

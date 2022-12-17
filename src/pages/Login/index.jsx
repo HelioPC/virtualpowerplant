@@ -2,7 +2,7 @@ import React from "react";
 import Particles from "react-tsparticles";
 import particlesConfig from "../../assets/particle/particlejs-config";
 
-import './login.css'
+import './style.css'
 
 export default function Login() {
     const BACKIMG = 'https://upload.wikimedia.org/wikipedia/commons/e/ef/Dülmen%2C_Börnste%2C_Waldweg_--_2015_--_4649.jpg?uselang=pt';
